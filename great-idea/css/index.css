@@ -73,28 +73,27 @@ header {
 	top: 0;
 	background-color: white;
 	display: flex;
-  }
+}
   
-  nav {
+nav {
 	display: flex;
+	justify-content: space-evenly;
 	width: 80%;
 	text-align: center;
 	position: absolute;
 	bottom: 10px;
-  }
+}
   
-  nav a {
+nav a {
 	  color: rgba(128, 128, 128, .5);
 	  font-weight: bold;
 	  text-decoration: none;
-	  padding: 10px 5% 10px 5%;
-	  margin: 10px;
 	  margin-bottom: 0;
-  }
+}
   
-  nav a:hover {
+nav a:hover {
 	  animation: play 0.5s linear;
-  }
+}
   
   @keyframes play {
 	  0% {
@@ -126,7 +125,7 @@ header {
   }
   
   .title {
-	  margin: 100px 200px;
+	  align-self: center;
   }
   
   .title h1 {
